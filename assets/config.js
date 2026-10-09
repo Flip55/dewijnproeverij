@@ -1,11 +1,11 @@
 // Site configuration — the only file you need to touch when hooking up services.
 window.SITE_CONFIG = {
   // Contact form: create a form on formspree.io and paste its endpoint here.
-  formspree: 'https://formspree.io/f/FORMSPREE_ID',
+  formspree: 'https://formspree.io/f/moejdzgl',
 
   // Quiz results: the Google Apps Script web app URL (see apps-script/README.md).
   // Leave empty to run the quiz without saving anything.
   resultsEndpoint: '',
 
-  contactEmail: 'info@dewijnproeverij.be'
+  contactEmail: 'info@dewijnproeverij.com'
 };
