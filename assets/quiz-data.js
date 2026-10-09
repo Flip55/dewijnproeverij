@@ -114,7 +114,8 @@ window.QUIZ_DATA = {
       "g": [
        "Cabernet Sauvignon",
        "Malbec",
-       "Syrah"
+       "Syrah",
+       "Primitivo"
       ]
      }
     ]
@@ -264,7 +265,13 @@ window.QUIZ_DATA = {
      },
      {
       "t": "Witte chocolade",
-      "g": []
+      "g": [
+       "Cabernet Sauvignon",
+       "Pinot Noir",
+       "Malbec",
+       "Syrah",
+       "Primitivo"
+      ]
      }
     ]
    },
@@ -335,7 +342,11 @@ window.QUIZ_DATA = {
      },
      {
       "t": "Napalm in the morning",
-      "g": []
+      "g": [
+       "Cabernet Sauvignon",
+       "Syrah",
+       "Primitivo"
+      ]
      }
     ]
    },

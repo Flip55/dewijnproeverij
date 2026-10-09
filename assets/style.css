@@ -199,3 +199,19 @@ em { font-style: italic; }
 .result .cta { margin-top: 2rem; display: flex; gap: .8rem; flex-wrap: wrap; }
 .result .runner { opacity: .9; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* ---------- group overview ---------- */
+.group-block { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 2px solid var(--bordeaux); }
+.group-block .pick { font-size: 1.5rem; }
+.group-block .scores { color: var(--bordeaux); }
+.group-block.wit .scores { color: var(--gold); }
+.group-block .scores li { color: var(--ink); }
+.group-block .scores .bar { background: var(--linen); }
+.group-block .scores .bar span { background: currentColor; }
+.group-block.rood .scores .bar span { background: var(--bordeaux); }
+.group-block.wit .scores .bar span { background: var(--gold); }
+.table-wrap { overflow-x: auto; margin-top: 1rem; }
+.group-block table { border-collapse: collapse; font-size: .9rem; min-width: 700px; }
+.group-block th, .group-block td { text-align: left; padding: .45rem .6rem; border-bottom: 1px solid var(--rule); white-space: nowrap; }
+.group-block th { font-weight: 600; }
+.group-block small { color: var(--muted); }
