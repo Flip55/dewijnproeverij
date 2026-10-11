@@ -28,6 +28,8 @@ De pagina's zijn platte HTML met een gedeelde header/footer. Bij een wijziging a
 - Rangpunten per persoon 4-3-2-1-0 (gelijke scores delen); het groepsoverzicht telt die op en adviseert de top 2 druiven. Zelfde methode als de oude spreadsheet "Topwijnen".
 - Groepslink: `rode-wijn.html?groep=<code>`; overzicht: `groep.html?code=<code>` (publiek: "nog bezig" tot de groep klaar is, dan top 2 + winnaar per naam, geen e-mails; organisatoren loggen in met hun eigen sleutel uit `ADMINS` in Code.gs, bewaard in localStorage, en zien alles).
 - Groepsbeheer in het tabblad "Groepen": verwacht aantal, status open/klaar (automatisch klaar als iedereen deed, één keer), rijen kunnen "dubbel" zijn (kolom `status` in Resultaten). Alle admin-acties gaan via GET op het Apps Script (`actie=login|groep|rij`).
+- **v2 (adaptief, in test op `rode-wijn-v2.html` / `witte-wijn-v2.html`, niet in het menu):** vaste basisronde van 8 vragen, daarna kiest SommelAI telkens de vraag (extra of duel) die de koplopers het best scheidt. Duels tellen dubbel. Stopt bij 3 punten voorsprong, na 20 vragen, of op "Genoeg". Zekerheid = 50% + 12,5% per punt voorsprong. Gesimuleerd: mediaan 10–11 vragen, juiste druif vaker dan v1. Zodra de sommeliers de vragen goedkeuren: v1-pagina's op `data-mode="v2"` zetten.
+- **Vragen bewerken:** `vragen/sommelai-vragen.xlsx` is de leesbare versie voor de sommeliers. `python3 tools/vragen.py export` maakt hem uit quiz-data.js, `python3 tools/vragen.py import` zet een bewerkte versie terug. Daarna scoring controleren.
 
 ## Externe diensten
 - Formspree (contactformulier), Google Apps Script + Sheet (quizresultaten, e-mailadressen), Cloudflare DNS (records op "DNS only"), GitHub Pages.

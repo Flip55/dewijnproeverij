@@ -1,5 +1,5 @@
-// Quiz data for SommelAI — generated from Winetasting_questionnaire.xlsx
-// Each option lists the grapes that score +1 when picked.
+// Quiz data for SommelAI — bewerk liever vragen/sommelai-vragen.xlsx en importeer met tools/import-vragen.py
+// Elke optie lijst de druiven die +1 krijgen. core = vaste eerste ronde (v2), duels = tweekeuzevragen (v2).
 window.QUIZ_DATA = {
  "red": {
   "grapes": [
@@ -492,7 +492,399 @@ window.QUIZ_DATA = {
    "Malbec": "Vol en fluweelzacht, met pruim, bosbes en chocolade. Vooral uit Argentinië komt hij rond en sappig. Een gulle wijn voor gezellige tafels en gegrild vlees.",
    "Syrah": "Donker, kruidig en intens. Zwarte peper, bosbes, soms gerookt vlees of leer. Van de Rhône tot Australië (waar hij Shiraz heet): een wijn met karakter voor wie van pit houdt.",
    "Primitivo": "De Zuid-Italiaanse zonnestraal, familie van de Zinfandel. Rijp, jammy fruit, zoete kruiden en een zachte, warme afdronk. Toegankelijk en geliefd op bijna elke proeverij."
-  }
+  },
+  "core": [
+   "fruit1",
+   "spices1",
+   "smell1",
+   "aroma1",
+   "vegetables1",
+   "occasions1",
+   "chocolate1",
+   "bitter1"
+  ],
+  "duels": [
+   {
+    "id": "d_cs_pn_1",
+    "q": "Een stevige handdruk of een kus op de wang?",
+    "options": [
+     {
+      "t": "Stevige handdruk",
+      "g": [
+       "Cabernet Sauvignon"
+      ]
+     },
+     {
+      "t": "Kus op de wang",
+      "g": [
+       "Pinot Noir"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_cs_pn_2",
+    "q": "Cassis of aardbei?",
+    "options": [
+     {
+      "t": "Cassis",
+      "g": [
+       "Cabernet Sauvignon"
+      ]
+     },
+     {
+      "t": "Aardbei",
+      "g": [
+       "Pinot Noir"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_cs_mb_1",
+    "q": "Ceder en potlood, of pruim en chocolade?",
+    "options": [
+     {
+      "t": "Ceder en potlood",
+      "g": [
+       "Cabernet Sauvignon"
+      ]
+     },
+     {
+      "t": "Pruim en chocolade",
+      "g": [
+       "Malbec"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_cs_mb_2",
+    "q": "Bordeaux of Buenos Aires?",
+    "options": [
+     {
+      "t": "Bordeaux",
+      "g": [
+       "Cabernet Sauvignon"
+      ]
+     },
+     {
+      "t": "Buenos Aires",
+      "g": [
+       "Malbec"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_cs_sy_1",
+    "q": "Groene paprika of zwarte peper?",
+    "options": [
+     {
+      "t": "Groene paprika",
+      "g": [
+       "Cabernet Sauvignon"
+      ]
+     },
+     {
+      "t": "Zwarte peper",
+      "g": [
+       "Syrah"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_cs_sy_2",
+    "q": "Een klassieker in maatpak of een rocker in leren jas?",
+    "options": [
+     {
+      "t": "Maatpak",
+      "g": [
+       "Cabernet Sauvignon"
+      ]
+     },
+     {
+      "t": "Leren jas",
+      "g": [
+       "Syrah"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_cs_pr_1",
+    "q": "Droog en streng, of rijp en zoetig?",
+    "options": [
+     {
+      "t": "Droog en streng",
+      "g": [
+       "Cabernet Sauvignon"
+      ]
+     },
+     {
+      "t": "Rijp en zoetig",
+      "g": [
+       "Primitivo"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_cs_pr_2",
+    "q": "Een lange afdronk met stevige tannines, of een warme knuffel in een glas?",
+    "options": [
+     {
+      "t": "Stevige tannines",
+      "g": [
+       "Cabernet Sauvignon"
+      ]
+     },
+     {
+      "t": "Warme knuffel",
+      "g": [
+       "Primitivo"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_pn_mb_1",
+    "q": "Bosgrond en champignon, of pruim en viooltjes?",
+    "options": [
+     {
+      "t": "Bosgrond en champignon",
+      "g": [
+       "Pinot Noir"
+      ]
+     },
+     {
+      "t": "Pruim en viooltjes",
+      "g": [
+       "Malbec"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_pn_mb_2",
+    "q": "Licht en elegant, of vol en fluweelzacht?",
+    "options": [
+     {
+      "t": "Licht en elegant",
+      "g": [
+       "Pinot Noir"
+      ]
+     },
+     {
+      "t": "Vol en fluweelzacht",
+      "g": [
+       "Malbec"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_pn_sy_1",
+    "q": "Zijde of leer?",
+    "options": [
+     {
+      "t": "Zijde",
+      "g": [
+       "Pinot Noir"
+      ]
+     },
+     {
+      "t": "Leer",
+      "g": [
+       "Syrah"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_pn_sy_2",
+    "q": "Framboos of gerookt spek?",
+    "options": [
+     {
+      "t": "Framboos",
+      "g": [
+       "Pinot Noir"
+      ]
+     },
+     {
+      "t": "Gerookt spek",
+      "g": [
+       "Syrah"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_pn_pr_1",
+    "q": "Bourgondisch verfijnd, of Zuid-Italiaans uitbundig?",
+    "options": [
+     {
+      "t": "Bourgondisch verfijnd",
+      "g": [
+       "Pinot Noir"
+      ]
+     },
+     {
+      "t": "Zuid-Italiaans uitbundig",
+      "g": [
+       "Primitivo"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_pn_pr_2",
+    "q": "Een glas bij de open haard, of een glas op een zonnig terras?",
+    "options": [
+     {
+      "t": "Bij de open haard",
+      "g": [
+       "Pinot Noir"
+      ]
+     },
+     {
+      "t": "Op een zonnig terras",
+      "g": [
+       "Primitivo"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_mb_sy_1",
+    "q": "Vlezige pruim of zwarte peper?",
+    "options": [
+     {
+      "t": "Vlezige pruim",
+      "g": [
+       "Malbec"
+      ]
+     },
+     {
+      "t": "Zwarte peper",
+      "g": [
+       "Syrah"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_mb_sy_2",
+    "q": "Tango of rock-’n-roll?",
+    "options": [
+     {
+      "t": "Tango",
+      "g": [
+       "Malbec"
+      ]
+     },
+     {
+      "t": "Rock-’n-roll",
+      "g": [
+       "Syrah"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_mb_pr_1",
+    "q": "Argentijnse steak of Italiaanse pasta al ragù?",
+    "options": [
+     {
+      "t": "Argentijnse steak",
+      "g": [
+       "Malbec"
+      ]
+     },
+     {
+      "t": "Pasta al ragù",
+      "g": [
+       "Primitivo"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_mb_pr_2",
+    "q": "Fluweelzacht of jammy zoet?",
+    "options": [
+     {
+      "t": "Fluweelzacht",
+      "g": [
+       "Malbec"
+      ]
+     },
+     {
+      "t": "Jammy zoet",
+      "g": [
+       "Primitivo"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_sy_pr_1",
+    "q": "Peper of confituur?",
+    "options": [
+     {
+      "t": "Peper",
+      "g": [
+       "Syrah"
+      ]
+     },
+     {
+      "t": "Confituur",
+      "g": [
+       "Primitivo"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_sy_pr_2",
+    "q": "Gerookt en kruidig, of rijp en zonnig?",
+    "options": [
+     {
+      "t": "Gerookt en kruidig",
+      "g": [
+       "Syrah"
+      ]
+     },
+     {
+      "t": "Rijp en zonnig",
+      "g": [
+       "Primitivo"
+      ]
+     }
+    ],
+    "duel": true
+   }
+  ]
  },
  "white": {
   "grapes": [
@@ -978,6 +1370,398 @@ window.QUIZ_DATA = {
    "Pinot Gris": "Zacht en rond, met peer, honing en een vleugje kruiden. In Italië (Pinot Grigio) licht en fris, in de Elzas voller en rijker. Een allemansvriend bij lunch en lichte gerechten.",
    "Riesling": "Aromatisch en levendig, met groene appel, citrus, bloemen en met wat jaren die beroemde toets van petroleum. Van kurkdroog tot zoet, altijd met frisse zuren. Een topdruif bij Aziatisch eten.",
    "Gewürztraminer": "Exotisch en uitbundig: lychee, rozenblaadjes, gember en een zachte, bijna zoete rondheid. De druif voor wie van parfum, kruiden en pittig eten houdt."
-  }
+  },
+  "core": [
+   "fruit1",
+   "spice1",
+   "smell1",
+   "smell2",
+   "aroma1",
+   "aroma2",
+   "occasions1",
+   "sour1"
+  ],
+  "duels": [
+   {
+    "id": "d_ch_sb_1",
+    "q": "Boter of versgemaaid gras?",
+    "options": [
+     {
+      "t": "Boter",
+      "g": [
+       "Chardonnay"
+      ]
+     },
+     {
+      "t": "Versgemaaid gras",
+      "g": [
+       "Sauvignon Blanc"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_ch_sb_2",
+    "q": "Rond en romig, of fris en strak?",
+    "options": [
+     {
+      "t": "Rond en romig",
+      "g": [
+       "Chardonnay"
+      ]
+     },
+     {
+      "t": "Fris en strak",
+      "g": [
+       "Sauvignon Blanc"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_ch_pg_1",
+    "q": "Geroosterde noten of rijpe peer?",
+    "options": [
+     {
+      "t": "Geroosterde noten",
+      "g": [
+       "Chardonnay"
+      ]
+     },
+     {
+      "t": "Rijpe peer",
+      "g": [
+       "Pinot Gris"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_ch_pg_2",
+    "q": "Gegrilde vis in botersaus, of een lichte lunch?",
+    "options": [
+     {
+      "t": "Vis in botersaus",
+      "g": [
+       "Chardonnay"
+      ]
+     },
+     {
+      "t": "Lichte lunch",
+      "g": [
+       "Pinot Gris"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_ch_ri_1",
+    "q": "Vanille van het houten vat, of een scheut citroen?",
+    "options": [
+     {
+      "t": "Vanille",
+      "g": [
+       "Chardonnay"
+      ]
+     },
+     {
+      "t": "Citroen",
+      "g": [
+       "Riesling"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_ch_ri_2",
+    "q": "Bourgogne of de Moezel?",
+    "options": [
+     {
+      "t": "Bourgogne",
+      "g": [
+       "Chardonnay"
+      ]
+     },
+     {
+      "t": "De Moezel",
+      "g": [
+       "Riesling"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_ch_gw_1",
+    "q": "Ingetogen en elegant, of parfum en lychee?",
+    "options": [
+     {
+      "t": "Ingetogen en elegant",
+      "g": [
+       "Chardonnay"
+      ]
+     },
+     {
+      "t": "Parfum en lychee",
+      "g": [
+       "Gewürztraminer"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_ch_gw_2",
+    "q": "Krijt of rozenblaadjes?",
+    "options": [
+     {
+      "t": "Krijt",
+      "g": [
+       "Chardonnay"
+      ]
+     },
+     {
+      "t": "Rozenblaadjes",
+      "g": [
+       "Gewürztraminer"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_sb_pg_1",
+    "q": "Kruisbes en pompelmoes, of peer en honing?",
+    "options": [
+     {
+      "t": "Kruisbes en pompelmoes",
+      "g": [
+       "Sauvignon Blanc"
+      ]
+     },
+     {
+      "t": "Peer en honing",
+      "g": [
+       "Pinot Gris"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_sb_pg_2",
+    "q": "Scherp en pittig, of zacht en rond?",
+    "options": [
+     {
+      "t": "Scherp en pittig",
+      "g": [
+       "Sauvignon Blanc"
+      ]
+     },
+     {
+      "t": "Zacht en rond",
+      "g": [
+       "Pinot Gris"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_sb_ri_1",
+    "q": "Grassig en groen, of appel en bloesem?",
+    "options": [
+     {
+      "t": "Grassig en groen",
+      "g": [
+       "Sauvignon Blanc"
+      ]
+     },
+     {
+      "t": "Appel en bloesem",
+      "g": [
+       "Riesling"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_sb_ri_2",
+    "q": "Geitenkaas of sushi?",
+    "options": [
+     {
+      "t": "Geitenkaas",
+      "g": [
+       "Sauvignon Blanc"
+      ]
+     },
+     {
+      "t": "Sushi",
+      "g": [
+       "Riesling"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_sb_gw_1",
+    "q": "Fris en kurkdroog, of weelderig en bijna zoet?",
+    "options": [
+     {
+      "t": "Fris en kurkdroog",
+      "g": [
+       "Sauvignon Blanc"
+      ]
+     },
+     {
+      "t": "Weelderig en bijna zoet",
+      "g": [
+       "Gewürztraminer"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_sb_gw_2",
+    "q": "Buxus of rozen?",
+    "options": [
+     {
+      "t": "Buxus",
+      "g": [
+       "Sauvignon Blanc"
+      ]
+     },
+     {
+      "t": "Rozen",
+      "g": [
+       "Gewürztraminer"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_pg_ri_1",
+    "q": "Zacht en mild, of levendig zuur?",
+    "options": [
+     {
+      "t": "Zacht en mild",
+      "g": [
+       "Pinot Gris"
+      ]
+     },
+     {
+      "t": "Levendig zuur",
+      "g": [
+       "Riesling"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_pg_ri_2",
+    "q": "Peer of groene appel?",
+    "options": [
+     {
+      "t": "Peer",
+      "g": [
+       "Pinot Gris"
+      ]
+     },
+     {
+      "t": "Groene appel",
+      "g": [
+       "Riesling"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_pg_gw_1",
+    "q": "De bescheiden allemansvriend, of de diva van het gezelschap?",
+    "options": [
+     {
+      "t": "Allemansvriend",
+      "g": [
+       "Pinot Gris"
+      ]
+     },
+     {
+      "t": "Diva",
+      "g": [
+       "Gewürztraminer"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_pg_gw_2",
+    "q": "Honing of gember?",
+    "options": [
+     {
+      "t": "Honing",
+      "g": [
+       "Pinot Gris"
+      ]
+     },
+     {
+      "t": "Gember",
+      "g": [
+       "Gewürztraminer"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_ri_gw_1",
+    "q": "Citrus en mineraal, of lychee en rozen?",
+    "options": [
+     {
+      "t": "Citrus en mineraal",
+      "g": [
+       "Riesling"
+      ]
+     },
+     {
+      "t": "Lychee en rozen",
+      "g": [
+       "Gewürztraminer"
+      ]
+     }
+    ],
+    "duel": true
+   },
+   {
+    "id": "d_ri_gw_2",
+    "q": "Thaise curry (mag pittig), of Indische korma (romig)?",
+    "options": [
+     {
+      "t": "Thaise curry",
+      "g": [
+       "Riesling"
+      ]
+     },
+     {
+      "t": "Indische korma",
+      "g": [
+       "Gewürztraminer"
+      ]
+     }
+    ],
+    "duel": true
+   }
+  ]
  }
 };
