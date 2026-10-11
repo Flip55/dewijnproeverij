@@ -26,11 +26,12 @@ De pagina's zijn platte HTML met een gedeelde header/footer. Bij een wijziging a
 - Rood: 13 vragen, 5 druiven (Cabernet Sauvignon, Pinot Noir, Malbec, Syrah, Primitivo). Geverifieerd tegen 5 echte respondenten uit de Landbot-export: identiek.
 - Wit: 12 vragen, 5 druiven (Chardonnay, Sauvignon Blanc, Pinot Gris, Riesling, Gewürztraminer). Uit de spreadsheet, niet geverifieerd tegen Landbot.
 - Rangpunten per persoon 4-3-2-1-0 (gelijke scores delen); het groepsoverzicht telt die op en adviseert de top 2 druiven. Zelfde methode als de oude spreadsheet "Topwijnen".
-- Groepslink: `rode-wijn.html?groep=<code>`; overzicht: `groep.html?code=<code>&key=<ADMIN_KEY>`.
+- Groepslink: `rode-wijn.html?groep=<code>`; overzicht: `groep.html?code=<code>` (publiek: "nog bezig" tot de groep klaar is, dan top 2 + winnaar per naam, geen e-mails; organisatoren loggen in met hun eigen sleutel uit `ADMINS` in Code.gs, bewaard in localStorage, en zien alles).
+- Groepsbeheer in het tabblad "Groepen": verwacht aantal, status open/klaar (automatisch klaar als iedereen deed, één keer), rijen kunnen "dubbel" zijn (kolom `status` in Resultaten). Alle admin-acties gaan via GET op het Apps Script (`actie=login|groep|rij`).
 
 ## Externe diensten
 - Formspree (contactformulier), Google Apps Script + Sheet (quizresultaten, e-mailadressen), Cloudflare DNS (records op "DNS only"), GitHub Pages.
-- Geheimen (ADMIN_KEY) horen niet in de repo.
+- Geheimen (de sleutels in ADMINS) horen niet in de repo.
 
 ## Werkwijze
 - Kleine wijzigingen: direct aanpassen, lokaal controleren (python -m http.server + Playwright-screenshot), committen, pushen naar `main`.

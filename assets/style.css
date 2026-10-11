@@ -215,3 +215,12 @@ em { font-style: italic; }
 .group-block th, .group-block td { text-align: left; padding: .45rem .6rem; border-bottom: 1px solid var(--rule); white-space: nowrap; }
 .group-block th { font-weight: 600; }
 .group-block small { color: var(--muted); }
+.group-block tr.dubbel td { opacity: .45; text-decoration: line-through; }
+.group-block tr.dubbel td:last-child { text-decoration: none; }
+.btn-small { padding: .25rem .7rem; font-size: .85rem; }
+.admin-panel { background: var(--linen); border-top: 0; border-radius: 1rem; padding: 1.5rem; }
+.admin-form { margin-top: 1rem; }
+.admin-form p { display: flex; gap: .6rem; flex-wrap: wrap; margin: 0; }
+.admin-login { margin-top: 1rem; }
+.admin-login[hidden] { display: none; }
+.note a { color: inherit; }
