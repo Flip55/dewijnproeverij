@@ -18,6 +18,7 @@ Een push naar `main` is binnen een minuut live. Er is geen build-stap.
 - `assets/quiz-data.js` vragen + druifkoppelingen · `assets/quiz.js` quizlogica · `assets/groep.js` groepsoverzicht
 - `apps-script/Code.gs` + README: Google Apps Script dat resultaten in een Google Sheet bewaart
 - `CNAME` custom domain — niet verwijderen
+- **SEO:** `tools/seo.py` schrijft per pagina title, description, canonical (apex, zonder www), Open Graph en robots-tags in de `<head>`, plus `sitemap.xml`. Titels/beschrijvingen aanpassen in de tabel `PAGES` in dat script, daarna `python3 tools/seo.py` draaien — nooit met de hand in de HTML. Nieuwe pagina: toevoegen aan `PAGES`. Testpagina's (v2) en `groep.html` staan op noindex en in `robots.txt`. `assets/og.png` is de deelafbeelding (placeholder tot het logo er is). JSON-LD: LocalBusiness op index/contact/proeverij, FAQPage op proeverij (met de hand in de HTML).
 
 De pagina's zijn platte HTML met een gedeelde header/footer. Bij een wijziging aan de navigatie: alle pagina's aanpassen.
 
@@ -43,5 +44,6 @@ De pagina's zijn platte HTML met een gedeelde header/footer. Bij een wijziging a
 ## Open punten
 - Logo en foto's toevoegen (Flip levert ze aan).
 - Witte quiz verifiëren als er een Landbot-export van de witte bot is.
-- Oude WordPress-site (dewijnproeverij.wordpress.com) vervangen door verwijsbericht; Google Maps en Instagram naar het nieuwe adres laten wijzen.
+- Oude WordPress-site staat op privé (redirect was te duur). Google Bedrijfsprofiel en Instagram naar dewijnproeverij.com laten wijzen; site aanmelden in Google Search Console (sitemap indienen).
+- SEO-content: lokale Vlaamse pagina's (teambuilding, vrijgezellen, cadeau, wijn bij Vlaamse gerechten); later een wekelijkse "wijn in promo bij de supermarkt"-tool (eerst manueel, overleg vooraf).
 - Later eventueel: Cal.com-boeking met betaling.

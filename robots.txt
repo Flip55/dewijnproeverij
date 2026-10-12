@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /rode-wijn-v2.html
+Disallow: /witte-wijn-v2.html
+Disallow: /groep.html
+
+Sitemap: https://dewijnproeverij.com/sitemap.xml
