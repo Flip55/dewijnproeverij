@@ -73,10 +73,13 @@ PAGES = {
 }
 
 OG_IMAGE = f"{SITE}/assets/og.png"
+# pagina's met de Bacchus-foto als deelafbeelding
+OG_BACCHUS = {"index.html", "over-ons.html"}
 
 
 def head_block(fname, title, desc, index):
     url = SITE + "/" if fname == "index.html" else f"{SITE}/{fname}"
+    og_image = f"{SITE}/assets/og-bacchus.jpg" if fname in OG_BACCHUS else OG_IMAGE
     lines = [
         f"<title>{title}</title>",
         f'<meta name="description" content="{desc}">',
@@ -91,7 +94,7 @@ def head_block(fname, title, desc, index):
         f'<meta property="og:title" content="{title}">',
         f'<meta property="og:description" content="{desc}">',
         f'<meta property="og:url" content="{url}">',
-        f'<meta property="og:image" content="{OG_IMAGE}">',
+        f'<meta property="og:image" content="{og_image}">',
         '<meta property="og:image:width" content="1200">',
         '<meta property="og:image:height" content="630">',
         '<meta name="twitter:card" content="summary_large_image">',

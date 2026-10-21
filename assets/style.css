@@ -85,8 +85,11 @@ em { font-style: italic; }
 .hero h1 { max-width: 12ch; }
 .hero .lead { max-width: 40ch; opacity: .92; }
 .hero .actions { display: flex; gap: .8rem; flex-wrap: wrap; margin-top: 1.8rem; }
-.hero .ring { position: absolute; right: -4rem; top: -3rem; width: clamp(240px, 38vw, 520px); opacity: .55; pointer-events: none; }
-@media (max-width: 700px) { .hero .ring { right: -8rem; top: auto; bottom: -9rem; opacity: .35; } }
+.hero .hero-img { position: absolute; right: 0; top: 50%; transform: translateY(-50%); height: 118%; width: auto; max-width: 46%; object-fit: cover; object-position: top; border-radius: 1rem; box-shadow: 0 20px 60px rgba(0,0,0,.35); pointer-events: none; }
+@media (max-width: 820px) { .hero .hero-img { position: static; transform: none; height: auto; width: 100%; max-width: 420px; margin-top: 2rem; display: block; } }
+.portrait { margin: 0; }
+.portrait img { width: 100%; height: auto; border-radius: 1rem; display: block; }
+.portrait figcaption { font-size: .9rem; color: var(--muted); font-style: italic; margin-top: .6rem; }
 
 /* ---------- sections ---------- */
 .section { padding: clamp(3rem, 7vw, 5.5rem) 0; }
