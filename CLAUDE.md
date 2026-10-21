@@ -12,7 +12,7 @@ Een push naar `main` is binnen een minuut live. Er is geen build-stap.
 - `index.html` home · `proeverij.html` formule & prijs (± €200 voor 6–10 personen, 2 druiven, 6–8 flessen)
 - `smaaktest.html` keuzepagina · `rode-wijn.html` / `witte-wijn.html` de SommelAI-quiz
 - `tips.html` + 3 artikels: `wijnaromas.html`, `wijnjargon.html`, `proeven-als-pro.html` (overgenomen van de oude WordPress-site)
-- `cadeau.html` cadeaubon en `teambuilding.html` (SEO-pagina's; samen in het menu als "Cadeau & teams", ook gelinkt vanuit home, proeverij en tips). Teambuilding: ± €20 p.p., factuur met btw, ook in het Engels, geen catering. `contact.html?vraag=teambuilding` vult het formulier vooraf in. Afspraken erop: bon als pdf, elk bedrag, één jaar geldig. `contact.html?vraag=cadeaubon` vult het formulier vooraf in.
+- `cadeau.html` cadeaubon en `teambuilding.html` (SEO-pagina's; in het menu onder de dropdown "Formules" samen met De proeverij; ook gelinkt vanuit home, proeverij en tips). Teambuilding: ± €20 p.p., factuur met btw, ook in het Engels, geen catering. `contact.html?vraag=teambuilding` vult het formulier vooraf in. Afspraken erop: bon als pdf, elk bedrag, één jaar geldig. `contact.html?vraag=cadeaubon` vult het formulier vooraf in.
 - `over-ons.html`, `contact.html` (boekingsformulier), `groep.html` (privé groepsoverzicht)
 - `assets/style.css` alle stijl (één lettertype: Fraunces; bordeaux `#4a1020`, stro `#e5cf8c`)
 - `assets/config.js` koppelingen: Formspree, Apps Script-endpoint, contactadres
@@ -21,7 +21,7 @@ Een push naar `main` is binnen een minuut live. Er is geen build-stap.
 - `CNAME` custom domain — niet verwijderen
 - **SEO:** `tools/seo.py` schrijft per pagina title, description, canonical (apex, zonder www), Open Graph en robots-tags in de `<head>`, plus `sitemap.xml`. Titels/beschrijvingen aanpassen in de tabel `PAGES` in dat script, daarna `python3 tools/seo.py` draaien — nooit met de hand in de HTML. Nieuwe pagina: toevoegen aan `PAGES`. `groep.html` staat op noindex en in `robots.txt`. `assets/og.png` is de deelafbeelding (placeholder tot het logo er is). JSON-LD: LocalBusiness op index/contact/proeverij, FAQPage op proeverij (met de hand in de HTML).
 
-De pagina's zijn platte HTML met een gedeelde header/footer. Bij een wijziging aan de navigatie: alle pagina's aanpassen.
+De pagina's zijn platte HTML met een gedeelde header/footer. Bij een wijziging aan de navigatie: alle pagina's aanpassen. Het menu-item "Formules" is een `<details class="dropdown">` (klik, hover op desktop; sluit bij klik erbuiten via een klein script onderaan elke pagina).
 
 ## Quizlogica (niet veranderen zonder overleg)
 - **Sinds 21/10/2026 draait de adaptieve v2-quiz** (`data-mode="v2"` op `#quiz` in rode-wijn.html en witte-wijn.html; de sommeliers keurden de vragen goed). Vaste basisronde van 8 vragen, daarna kiest SommelAI telkens de vraag (extra of duel) die de koplopers het best scheidt. Duels (tweekeuzevragen) tellen dubbel. Stopt bij 3 punten voorsprong, na 20 vragen, of op "Genoeg". Zekerheid = 50% + 12,5% per punt voorsprong. Gesimuleerd: mediaan 10–11 vragen. Omdat het aantal vragen varieert, spreken smaaktest.html en de SEO-teksten van "± 10" / "een handvol" vragen.
