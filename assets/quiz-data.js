@@ -419,7 +419,7 @@ window.QUIZ_DATA = {
     "q": "Wat is jouw mening over de zuurtegraad van een wijntje?",
     "options": [
      {
-      "t": "Mag best zuur zijn!",
+      "t": "Doe gerust, ik ben toch al een beetje de zuurpruim...",
       "g": [
        "Cabernet Sauvignon",
        "Pinot Noir"
@@ -525,16 +525,16 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_cs_pn_2",
-    "q": "Cassis of aardbei?",
+    "q": "Picon of Strawberry Daiquiri?",
     "options": [
      {
-      "t": "Cassis",
+      "t": "Picon",
       "g": [
        "Cabernet Sauvignon"
       ]
      },
      {
-      "t": "Aardbei",
+      "t": "Strawberry Daiquiri",
       "g": [
        "Pinot Noir"
       ]
@@ -544,16 +544,16 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_cs_mb_1",
-    "q": "Ceder en potlood, of pruim en chocolade?",
+    "q": "Houthakker of chocolatier?",
     "options": [
      {
-      "t": "Ceder en potlood",
+      "t": "Houthakker",
       "g": [
        "Cabernet Sauvignon"
       ]
      },
      {
-      "t": "Pruim en chocolade",
+      "t": "Chocolatier",
       "g": [
        "Malbec"
       ]
@@ -582,16 +582,16 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_cs_sy_1",
-    "q": "Groene paprika of zwarte peper?",
+    "q": "Gevulde paprika of peperroomsaus?",
     "options": [
      {
-      "t": "Groene paprika",
+      "t": "Gevulde paprika",
       "g": [
        "Cabernet Sauvignon"
       ]
      },
      {
-      "t": "Zwarte peper",
+      "t": "Peperroomsaus",
       "g": [
        "Syrah"
       ]
@@ -620,16 +620,16 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_cs_pr_1",
-    "q": "Droog en streng, of rijp en zoetig?",
+    "q": "Latijn of Zedenleer?",
     "options": [
      {
-      "t": "Droog en streng",
+      "t": "Latijn",
       "g": [
        "Cabernet Sauvignon"
       ]
      },
      {
-      "t": "Rijp en zoetig",
+      "t": "Zedenleer",
       "g": [
        "Primitivo"
       ]
@@ -639,10 +639,10 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_cs_pr_2",
-    "q": "Een lange afdronk met stevige tannines, of een warme knuffel in een glas?",
+    "q": "Een stevig schouderklopje of een warme knuffel in een glas?",
     "options": [
      {
-      "t": "Stevige tannines",
+      "t": "Stevig schouderklopje",
       "g": [
        "Cabernet Sauvignon"
       ]
@@ -658,16 +658,16 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_pn_mb_1",
-    "q": "Bosgrond en champignon, of pruim en viooltjes?",
+    "q": "Champignonsoep of boeket bloemen?",
     "options": [
      {
-      "t": "Bosgrond en champignon",
+      "t": "Champignonsoep",
       "g": [
        "Pinot Noir"
       ]
      },
      {
-      "t": "Pruim en viooltjes",
+      "t": "Boeket bloemen",
       "g": [
        "Malbec"
       ]
@@ -677,16 +677,16 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_pn_mb_2",
-    "q": "Licht en elegant, of vol en fluweelzacht?",
+    "q": "Satijn of velours?",
     "options": [
      {
-      "t": "Licht en elegant",
+      "t": "Satijn",
       "g": [
        "Pinot Noir"
       ]
      },
      {
-      "t": "Vol en fluweelzacht",
+      "t": "Velours",
       "g": [
        "Malbec"
       ]
@@ -734,7 +734,7 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_pn_pr_1",
-    "q": "Bourgondisch verfijnd, of Zuid-Italiaans uitbundig?",
+    "q": "Bourgondisch verfijnd of Zuid-Italiaans uitbundig?",
     "options": [
      {
       "t": "Bourgondisch verfijnd",
@@ -753,7 +753,7 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_pn_pr_2",
-    "q": "Een glas bij de open haard, of een glas op een zonnig terras?",
+    "q": "Een glas bij de open haard of een glas op een zonnig terras?",
     "options": [
      {
       "t": "Bij de open haard",
@@ -867,16 +867,16 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_sy_pr_2",
-    "q": "Gerookt en kruidig, of rijp en zonnig?",
+    "q": "BBQ of pasta met tomaten?",
     "options": [
      {
-      "t": "Gerookt en kruidig",
+      "t": "BBQ",
       "g": [
        "Syrah"
       ]
      },
      {
-      "t": "Rijp en zonnig",
+      "t": "Pasta met tomaten",
       "g": [
        "Primitivo"
       ]
@@ -1241,7 +1241,7 @@ window.QUIZ_DATA = {
       ]
      },
      {
-      "t": "Nooit! Ik walg ervan!",
+      "t": "Geen zoete brol!",
       "g": [
        "Sauvignon Blanc"
       ]
@@ -1403,16 +1403,16 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_ch_sb_2",
-    "q": "Rond en romig, of fris en strak?",
+    "q": "Roomijs of sorbet?",
     "options": [
      {
-      "t": "Rond en romig",
+      "t": "Roomijs",
       "g": [
        "Chardonnay"
       ]
      },
      {
-      "t": "Fris en strak",
+      "t": "Sorbet",
       "g": [
        "Sauvignon Blanc"
       ]
@@ -1441,7 +1441,7 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_ch_pg_2",
-    "q": "Gegrilde vis in botersaus, of een lichte lunch?",
+    "q": "Gegrilde vis in botersaus of een lichte lunch?",
     "options": [
      {
       "t": "Vis in botersaus",
@@ -1460,7 +1460,7 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_ch_ri_1",
-    "q": "Vanille van het houten vat, of een scheut citroen?",
+    "q": "Vanille of citroen?",
     "options": [
      {
       "t": "Vanille",
@@ -1482,13 +1482,13 @@ window.QUIZ_DATA = {
     "q": "Bourgogne of de Moezel?",
     "options": [
      {
-      "t": "Bourgogne",
+      "t": "Bourgogne, bien sûr!",
       "g": [
        "Chardonnay"
       ]
      },
      {
-      "t": "De Moezel",
+      "t": "De Moezel, bitte!",
       "g": [
        "Riesling"
       ]
@@ -1498,16 +1498,16 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_ch_gw_1",
-    "q": "Ingetogen en elegant, of parfum en lychee?",
+    "q": "Klassiek concert of Back to the nillies?",
     "options": [
      {
-      "t": "Ingetogen en elegant",
+      "t": "Klassiek concert",
       "g": [
        "Chardonnay"
       ]
      },
      {
-      "t": "Parfum en lychee",
+      "t": "Back to the nillies",
       "g": [
        "Gewürztraminer"
       ]
@@ -1517,16 +1517,16 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_ch_gw_2",
-    "q": "Krijt of rozenblaadjes?",
+    "q": "Opaalkust of Parijs?",
     "options": [
      {
-      "t": "Krijt",
+      "t": "Opaalkust",
       "g": [
        "Chardonnay"
       ]
      },
      {
-      "t": "Rozenblaadjes",
+      "t": "Parijs",
       "g": [
        "Gewürztraminer"
       ]
@@ -1555,16 +1555,16 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_sb_pg_2",
-    "q": "Scherp en pittig, of zacht en rond?",
+    "q": "Kritische noot of diepgaand gesprek?",
     "options": [
      {
-      "t": "Scherp en pittig",
+      "t": "Kritische noot",
       "g": [
        "Sauvignon Blanc"
       ]
      },
      {
-      "t": "Zacht en rond",
+      "t": "Diepgaand gesprek",
       "g": [
        "Pinot Gris"
       ]
@@ -1574,16 +1574,16 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_sb_ri_1",
-    "q": "Grassig en groen, of appel en bloesem?",
+    "q": "Lente of zomer?",
     "options": [
      {
-      "t": "Grassig en groen",
+      "t": "Lente",
       "g": [
        "Sauvignon Blanc"
       ]
      },
      {
-      "t": "Appel en bloesem",
+      "t": "Zomer",
       "g": [
        "Riesling"
       ]
@@ -1650,16 +1650,16 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_pg_ri_1",
-    "q": "Zacht en mild, of levendig zuur?",
+    "q": "Zacht of levendig?",
     "options": [
      {
-      "t": "Zacht en mild",
+      "t": "Zacht",
       "g": [
        "Pinot Gris"
       ]
      },
      {
-      "t": "Levendig zuur",
+      "t": "Levendig",
       "g": [
        "Riesling"
       ]
@@ -1688,10 +1688,10 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_pg_gw_1",
-    "q": "De bescheiden allemansvriend, of de diva van het gezelschap?",
+    "q": "Het bescheiden maar aimabele muurbloempje of de allomtegenwoordige diva van het gezelschap?",
     "options": [
      {
-      "t": "Allemansvriend",
+      "t": "Muurbloempje",
       "g": [
        "Pinot Gris"
       ]
@@ -1726,16 +1726,16 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_ri_gw_1",
-    "q": "Citrus en mineraal, of lychee en rozen?",
+    "q": "Strand of bergen?",
     "options": [
      {
-      "t": "Citrus en mineraal",
+      "t": "Strand",
       "g": [
        "Riesling"
       ]
      },
      {
-      "t": "Lychee en rozen",
+      "t": "Bergen",
       "g": [
        "Gewürztraminer"
       ]
@@ -1745,7 +1745,7 @@ window.QUIZ_DATA = {
    },
    {
     "id": "d_ri_gw_2",
-    "q": "Thaise curry (mag pittig), of Indische korma (romig)?",
+    "q": "Pittige Thaise curry of romige Indische korma?",
     "options": [
      {
       "t": "Thaise curry",
