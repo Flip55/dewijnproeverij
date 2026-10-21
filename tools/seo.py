@@ -4,6 +4,7 @@
 Gebruik: python3 tools/seo.py          (schrijft alle pagina's + sitemap.xml)
 De tabel PAGES is de enige plek om titels en beschrijvingen aan te passen.
 """
+import hashlib
 import re
 from pathlib import Path
 
@@ -107,11 +108,14 @@ PATTERN = re.compile(r"<title>.*?(?=<link rel=\"icon\")", re.S)
 
 
 def main():
+    # cache-busting: stylesheet-link krijgt een hash van style.css, zodat browsers nooit een oude stijl vasthouden
+    css_hash = hashlib.md5((ROOT / "assets/style.css").read_bytes()).hexdigest()[:8]
     for fname, (title, desc, index) in PAGES.items():
         p = ROOT / fname
         html = p.read_text(encoding="utf-8")
         new, n = PATTERN.subn(head_block(fname, title, desc, index) + "\n", html, count=1)
         assert n == 1, f"geen title-blok gevonden in {fname}"
+        new = re.sub(r'href="assets/style\.css(\?v=[0-9a-f]+)?"', f'href="assets/style.css?v={css_hash}"', new)
         p.write_text(new, encoding="utf-8")
         print("ok", fname)
 
