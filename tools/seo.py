@@ -57,8 +57,6 @@ PAGES = {
         "Vraag een datum aan voor een wijnproeverij aan huis in Gent en omstreken. Vertel ons wanneer, waar en met hoeveel; we antwoorden snel met een voorstel.",
         True),
     # niet indexeren: testpagina's en privé groepsoverzicht
-    "rode-wijn-v2.html": ("Welke rode wijn past bij jou? — SommelAI (v2, test)", "Testversie van de SommelAI smaaktest.", False),
-    "witte-wijn-v2.html": ("Welke witte wijn past bij jou? — SommelAI (v2, test)", "Testversie van de SommelAI smaaktest.", False),
     "groep.html": ("Groepsoverzicht — SommelAI", "Privé groepsoverzicht van een SommelAI-proeverij.", False),
 }
 
