@@ -65,6 +65,10 @@ PAGES = {
         "Wijnproeverij als teambuilding in Gent — De wijnproeverij",
         "Teambuilding met een wijnproeverij op kantoor of op locatie in Gent en omstreken. Zes tot acht flessen, blinde proeverij, ± €20 per persoon, factuur mogelijk. Ook in het Engels.",
         True),
+    "wijn-bij-stoverij.html": (
+        "Welke wijn bij stoverij (stoofvlees)? Onze 3 favorieten",
+        "Welke rode wijn past bij Vlaamse stoverij of stoofvlees? Malbec, Primitivo of Syrah: zacht, rijp fruit en niet te duur. Plus wat je beter laat staan, en de bier-of-wijn-vraag.",
+        True),
     "groep.html": ("Groepsoverzicht — SommelAI", "Privé groepsoverzicht van een SommelAI-proeverij.", False),
 }
 
