@@ -13,12 +13,12 @@ ROOT = Path(__file__).resolve().parent.parent
 # bestand: (title, description, indexeren?)
 PAGES = {
     "index.html": (
-        "Wijnproeverij aan huis in Gent en omstreken — De wijnproeverij",
-        "Wijnproeverij aan huis in de regio Gent: wij komen met zes tot acht flessen, glazen en goesting. Jij zorgt voor de vrienden. Doe eerst de SommelAI smaaktest.",
+        "Wijnproeverij in Gent, bij jou thuis — De wijnproeverij",
+        "Wijnproeverij of wijndegustatie aan huis in Gent en omstreken. Wij brengen zes tot acht flessen en de uitleg, jij de vrienden. Wine tasting at home in Ghent, in English on request.",
         True),
     "proeverij.html": (
-        "Zo werkt onze wijnproeverij aan huis — prijs en formule",
-        "Zes tot tien vrienden, twee druivensoorten, zes tot acht flessen, ± €200 voor de hele groep. Lees hoe een wijnproeverij aan huis bij De wijnproeverij verloopt.",
+        "Wijndegustatie aan huis: formule en prijs — De wijnproeverij",
+        "Zes tot tien vrienden, twee druivensoorten, zes tot acht flessen, ± €200 voor de hele groep. Zo verloopt een wijndegustatie aan huis bij De wijnproeverij.",
         True),
     "smaaktest.html": (
         "SommelAI smaaktest: welke wijn past bij jou?",
@@ -53,7 +53,7 @@ PAGES = {
         "Flip, Tim en Nick: drie jeugdvrienden uit de regio Gent die wijnproeven leuk en toegankelijk maken. Geen snobisme, wel kennis en goesting.",
         True),
     "contact.html": (
-        "Boek een wijnproeverij aan huis in de regio Gent — Contact",
+        "Wijnproeverij boeken in Gent en omstreken — Contact",
         "Vraag een datum aan voor een wijnproeverij aan huis in Gent en omstreken. Vertel ons wanneer, waar en met hoeveel; we antwoorden snel met een voorstel.",
         True),
     # niet indexeren: testpagina's en privé groepsoverzicht
