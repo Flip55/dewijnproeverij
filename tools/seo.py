@@ -26,11 +26,11 @@ PAGES = {
         True),
     "rode-wijn.html": (
         "Welke rode wijn past bij jou? Doe de test — SommelAI",
-        "Cabernet, Pinot Noir, Malbec, Syrah of Primitivo? Beantwoord 13 korte vragen en SommelAI vertelt welke rode druif bij jou past.",
+        "Cabernet, Pinot Noir, Malbec, Syrah of Primitivo? Beantwoord een handvol korte vragen en SommelAI vertelt welke rode druif bij jou past.",
         True),
     "witte-wijn.html": (
         "Welke witte wijn past bij jou? Doe de test — SommelAI",
-        "Chardonnay, Sauvignon Blanc, Pinot Gris, Riesling of Gewürztraminer? Beantwoord 12 korte vragen en SommelAI vertelt welke witte druif bij jou past.",
+        "Chardonnay, Sauvignon Blanc, Pinot Gris, Riesling of Gewürztraminer? Beantwoord een handvol korte vragen en SommelAI vertelt welke witte druif bij jou past.",
         True),
     "tips.html": (
         "Wijntips zonder snobisme — De wijnproeverij",
