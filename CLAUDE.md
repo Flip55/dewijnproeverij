@@ -15,11 +15,12 @@ Een push naar `main` is binnen een minuut live. Er is geen build-stap.
 - `cadeau.html` cadeaubon en `teambuilding.html` (SEO-pagina's; in het menu onder de dropdown "Formules" samen met De proeverij; ook gelinkt vanuit home, proeverij en tips). Teambuilding: ± €20 p.p., factuur met btw, ook in het Engels, geen catering. `contact.html?vraag=teambuilding` vult het formulier vooraf in. Afspraken erop: bon als pdf, elk bedrag, één jaar geldig. `contact.html?vraag=cadeaubon` vult het formulier vooraf in.
 - `over-ons.html`, `contact.html` (boekingsformulier), `groep.html` (privé groepsoverzicht)
 - `assets/style.css` alle stijl (één lettertype: Fraunces; bordeaux `#4a1020`, stro `#e5cf8c`)
+- **Logo:** de coupe (brede ondiepe kelk met wijnlijn), gekozen op 21/10/2026 als knipoog naar de Bacchus-foto op Instagram. `assets/logo.svg` (bordeaux), `assets/favicon.svg`, en inline in de header van elke pagina (stro). Vorm wijzigen = in alle drie aanpassen. De Bacchus-foto zelf is beeldmateriaal (hero/over ons/socials), geen logo.
 - `assets/config.js` koppelingen: Formspree, Apps Script-endpoint, contactadres
 - `assets/quiz-data.js` vragen + druifkoppelingen · `assets/quiz.js` quizlogica · `assets/groep.js` groepsoverzicht
 - `apps-script/Code.gs` + README: Google Apps Script dat resultaten in een Google Sheet bewaart
 - `CNAME` custom domain — niet verwijderen
-- **SEO:** `tools/seo.py` schrijft per pagina title, description, canonical (apex, zonder www), Open Graph en robots-tags in de `<head>`, plus `sitemap.xml`. Titels/beschrijvingen aanpassen in de tabel `PAGES` in dat script, daarna `python3 tools/seo.py` draaien — nooit met de hand in de HTML. Nieuwe pagina: toevoegen aan `PAGES`. `groep.html` staat op noindex en in `robots.txt`. `assets/og.png` is de deelafbeelding (placeholder tot het logo er is). JSON-LD: LocalBusiness op index/contact/proeverij, FAQPage op proeverij (met de hand in de HTML).
+- **SEO:** `tools/seo.py` schrijft per pagina title, description, canonical (apex, zonder www), Open Graph en robots-tags in de `<head>`, plus `sitemap.xml`. Titels/beschrijvingen aanpassen in de tabel `PAGES` in dat script, daarna `python3 tools/seo.py` draaien — nooit met de hand in de HTML. Nieuwe pagina: toevoegen aan `PAGES`. `groep.html` staat op noindex en in `robots.txt`. `assets/og.png` is de deelafbeelding (coupe + woordmerk). JSON-LD: LocalBusiness op index/contact/proeverij, FAQPage op proeverij (met de hand in de HTML).
 
 De pagina's zijn platte HTML met een gedeelde header/footer. Bij een wijziging aan de navigatie: alle pagina's aanpassen. Het menu-item "Formules" is een `<details class="dropdown">` (klik, hover op desktop; sluit bij klik erbuiten via een klein script onderaan elke pagina).
 
@@ -44,7 +45,7 @@ De pagina's zijn platte HTML met een gedeelde header/footer. Bij een wijziging a
 - Na een wijziging aan de quizdata: scoring opnieuw controleren.
 
 ## Open punten
-- Logo en foto's toevoegen (Flip levert ze aan).
+- Foto's toevoegen (Flip levert ze aan); Bacchus-beeld in hoge resolutie voor hero en over-ons.
 - Witte quiz verifiëren als er een Landbot-export van de witte bot is.
 - Oude WordPress-site staat op privé (redirect was te duur). Google Bedrijfsprofiel en Instagram naar dewijnproeverij.com laten wijzen; site aanmelden in Google Search Console (sitemap indienen).
 - SEO-content: nog te schrijven: vrijgezellen, meer foodpairing (garnaalkroketten, waterzooi, bbq), druifpagina's; later een wekelijkse "wijn in promo bij de supermarkt"-tool (eerst manueel, overleg vooraf).
