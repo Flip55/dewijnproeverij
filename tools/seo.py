@@ -57,6 +57,11 @@ PAGES = {
         "Vraag een datum aan voor een wijnproeverij aan huis in Gent en omstreken. Vertel ons wanneer, waar en met hoeveel; we antwoorden snel met een voorstel.",
         True),
     # niet indexeren: testpagina's en privé groepsoverzicht
+    # CONCEPT: cadeau.html staat op noindex tot Flip de tekst goedkeurt; dan True zetten en in het menu/tips opnemen.
+    "cadeau.html": (
+        "Een wijnproeverij cadeau geven: cadeaubon voor thuis — De wijnproeverij",
+        "Zoek je een origineel cadeau voor een wijnliefhebber in Gent en omstreken? Geef een wijnproeverij aan huis: zes tot tien vrienden, zes tot acht flessen, één avond om nooit te vergeten.",
+        False),
     "groep.html": ("Groepsoverzicht — SommelAI", "Privé groepsoverzicht van een SommelAI-proeverij.", False),
 }
 

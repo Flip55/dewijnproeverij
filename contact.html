@@ -101,7 +101,7 @@
   </div>
 </section>
 <script>(function(){var c=window.SITE_CONFIG||{};var f=document.getElementById('contactForm');if(c.formspree)f.action=c.formspree;var m=document.querySelector('a[href^="mailto:"]');if(c.contactEmail&&m){m.href='mailto:'+c.contactEmail;m.textContent=c.contactEmail;}
-var p=new URLSearchParams(location.search);var k=p.get('kleur'),d=p.get('druif');if(k){f.kleur.value=k==='rood'?'Rode wijn':'Witte wijn';}if(d){f.vraag.value='SommelAI zegt dat ik een '+d+' ben. ';}})();</script>
+var p=new URLSearchParams(location.search);var k=p.get('kleur'),d=p.get('druif');if(k){f.kleur.value=k==='rood'?'Rode wijn':'Witte wijn';}if(d){f.vraag.value='SommelAI zegt dat ik een '+d+' ben. ';}var v=p.get('vraag');if(v==='cadeaubon'&&!f.vraag.value){f.vraag.value='Ik wil graag een cadeaubon voor een wijnproeverij. Voor: … Bedrag: … ';}})();</script>
 <footer class="site-footer">
   <div class="wrap">
     <p>© De wijnproeverij · Regio Gent</p>
