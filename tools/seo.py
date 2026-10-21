@@ -61,6 +61,10 @@ PAGES = {
         "Een wijnproeverij cadeau geven: cadeaubon voor thuis",
         "Zoek je een origineel cadeau voor een wijnliefhebber in Gent en omstreken? Geef een wijnproeverij aan huis: zes tot tien vrienden, zes tot acht flessen, één avond om nooit te vergeten.",
         True),
+    "teambuilding.html": (
+        "Wijnproeverij als teambuilding in Gent — De wijnproeverij",
+        "Teambuilding met een wijnproeverij op kantoor of op locatie in Gent en omstreken. Zes tot acht flessen, blinde proeverij, ± €20 per persoon, factuur mogelijk. Ook in het Engels.",
+        True),
     "groep.html": ("Groepsoverzicht — SommelAI", "Privé groepsoverzicht van een SommelAI-proeverij.", False),
 }
 

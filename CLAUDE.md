@@ -12,7 +12,7 @@ Een push naar `main` is binnen een minuut live. Er is geen build-stap.
 - `index.html` home · `proeverij.html` formule & prijs (± €200 voor 6–10 personen, 2 druiven, 6–8 flessen)
 - `smaaktest.html` keuzepagina · `rode-wijn.html` / `witte-wijn.html` de SommelAI-quiz
 - `tips.html` + 3 artikels: `wijnaromas.html`, `wijnjargon.html`, `proeven-als-pro.html` (overgenomen van de oude WordPress-site)
-- `cadeau.html` cadeaubon (SEO-pagina "wijnproeverij cadeau"; gelinkt vanuit home, proeverij en tips, niet in het hoofdmenu). Afspraken erop: bon als pdf, elk bedrag, één jaar geldig. `contact.html?vraag=cadeaubon` vult het formulier vooraf in.
+- `cadeau.html` cadeaubon en `teambuilding.html` (SEO-pagina's; samen in het menu als "Cadeau & teams", ook gelinkt vanuit home, proeverij en tips). Teambuilding: ± €20 p.p., factuur met btw, ook in het Engels, geen catering. `contact.html?vraag=teambuilding` vult het formulier vooraf in. Afspraken erop: bon als pdf, elk bedrag, één jaar geldig. `contact.html?vraag=cadeaubon` vult het formulier vooraf in.
 - `over-ons.html`, `contact.html` (boekingsformulier), `groep.html` (privé groepsoverzicht)
 - `assets/style.css` alle stijl (één lettertype: Fraunces; bordeaux `#4a1020`, stro `#e5cf8c`)
 - `assets/config.js` koppelingen: Formspree, Apps Script-endpoint, contactadres
@@ -47,5 +47,5 @@ De pagina's zijn platte HTML met een gedeelde header/footer. Bij een wijziging a
 - Logo en foto's toevoegen (Flip levert ze aan).
 - Witte quiz verifiëren als er een Landbot-export van de witte bot is.
 - Oude WordPress-site staat op privé (redirect was te duur). Google Bedrijfsprofiel en Instagram naar dewijnproeverij.com laten wijzen; site aanmelden in Google Search Console (sitemap indienen).
-- SEO-content: lokale Vlaamse pagina's (teambuilding, vrijgezellen, cadeau, wijn bij Vlaamse gerechten); later een wekelijkse "wijn in promo bij de supermarkt"-tool (eerst manueel, overleg vooraf).
+- SEO-content: nog te schrijven: vrijgezellen, wijn bij Vlaamse gerechten (stoofvlees eerst), druifpagina's; later een wekelijkse "wijn in promo bij de supermarkt"-tool (eerst manueel, overleg vooraf).
 - Later eventueel: Cal.com-boeking met betaling.
