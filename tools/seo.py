@@ -68,7 +68,7 @@ PAGES = {
         True),
     "wijn-bij-stoverij.html": (
         "Welke wijn bij stoverij (stoofvlees)? Onze 3 favorieten",
-        "Welke rode wijn past bij Vlaamse stoverij of stoofvlees? Malbec, Primitivo of Syrah: zacht, rijp fruit en niet te duur. Plus wat je beter laat staan, en de bier-of-wijn-vraag.",
+        "Welke rode wijn past bij Vlaamse stoverij of stoofvlees? Malbec, Primitivo of Syrah: zacht, rijp fruit en niet te duur. Plus de juiste fles bij de vegetarische versie met seitan, en wat je beter laat staan.",
         True),
     "groep.html": ("Groepsoverzicht — SommelAI", "Privé groepsoverzicht van een SommelAI-proeverij.", False),
 }
